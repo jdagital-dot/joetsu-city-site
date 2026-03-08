@@ -1,0 +1,7 @@
+# .gitignore - JOETSU COLLECTIVE
+
+node_modules/
+.DS_Store
+*.log
+dist/
+.env
