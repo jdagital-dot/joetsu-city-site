@@ -33,4 +33,12 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- 記事4: 読書喫茶ヒミツヤサン -->
+  <url>
+    <loc>https://joetsucollective.com/article-himitsuyasan.html</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>

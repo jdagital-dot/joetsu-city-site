@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【静寂のなかで、自分に返る。】読書喫茶ヒミツヤサンという選択。 | JOETSU COLLECTIVE</title>
+    <meta name="description" content="上越市西城町の読書喫茶ヒミツヤサン。おしゃべり禁止、筆談でのオーダー、オーナーの蔵書が並ぶ唯一無二の空間。秘密のプリンとともに、誰にも邪魔されない時間を。">
+    <meta name="keywords" content="読書喫茶ヒミツヤサン,上越 カフェ,上越 読書,上越 おしゃべり禁止,上越 秘密のプリン,上越市 喫茶店">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Noto+Serif+JP:wght@400;600&family=Noto+Sans+JP:wght@300;400&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --text-main: #1a1a1a;
+            --text-muted: #888;
+            --bg: #faf9f7;
+            --border-light: #e5e0d8;
+            --accent: #8b7355;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text-main);
+            font-family: 'Noto Sans JP', sans-serif;
+            font-weight: 300;
+            margin: 0;
+        }
+
+        .serif {
+            font-family: 'Noto Serif JP', serif;
+        }
+
+        header {
+            padding: 28px 40px;
+            border-bottom: 1px solid var(--border-light);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header a {
+            text-decoration: none;
+            color: var(--text-main);
+        }
+
+        .logo {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 22px;
+            letter-spacing: 0.15em;
+        }
+
+        nav {
+            display: flex;
+            gap: 32px;
+            font-size: 11px;
+            letter-spacing: 0.2em;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--text-muted);
+        }
+
+        .article-hero {
+            position: relative;
+            height: 520px;
+            overflow: hidden;
+        }
+
+        .article-hero img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(0.72);
+        }
+
+        .hero-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 60px;
+            color: white;
+            background: linear-gradient(transparent, rgba(0, 0, 0, 0.55));
+        }
+
+        .hero-category {
+            font-size: 10px;
+            letter-spacing: 0.25em;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 16px;
+        }
+
+        .hero-title {
+            font-family: 'Noto Serif JP', serif;
+            font-size: clamp(24px, 3.5vw, 40px);
+            line-height: 1.5;
+            font-weight: 600;
+        }
+
+        .article-body {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+
+        .article-body p {
+            line-height: 2;
+            margin-bottom: 24px;
+            font-size: 15px;
+        }
+
+        .article-body h2 {
+            font-family: 'Noto Serif JP', serif;
+            font-size: 20px;
+            margin: 56px 0 20px;
+            border-left: 3px solid var(--accent);
+            padding-left: 16px;
+        }
+
+        .editor-voice {
+            background: #f5f0eb;
+            border-left: 4px solid var(--accent);
+            padding: 32px 36px;
+            margin: 48px 0;
+        }
+
+        .editor-voice .label {
+            font-size: 10px;
+            letter-spacing: 0.25em;
+            color: var(--accent);
+            margin-bottom: 12px;
+        }
+
+        .editor-voice p {
+            font-size: 14px;
+            line-height: 1.9;
+            margin: 0;
+            color: #333;
+        }
+
+        .shop-info {
+            margin: 60px 0;
+            border: 1px solid var(--border-light);
+            padding: 40px;
+        }
+
+        .shop-info h3 {
+            font-family: 'Noto Serif JP', serif;
+            margin-bottom: 20px;
+            font-size: 16px;
+            letter-spacing: 0.1em;
+        }
+
+        .shop-info p {
+            font-size: 14px;
+            line-height: 2;
+            margin: 0 0 20px;
+        }
+
+        .shop-links {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .shop-links a {
+            font-size: 14px;
+            border-bottom: 1px solid var(--text-main);
+            text-decoration: none;
+            color: var(--text-main);
+        }
+
+        footer {
+            border-top: 1px solid var(--border-light);
+            padding: 40px;
+            text-align: center;
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-top: 80px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html">
+            <div class="logo">JOETSU COLLECTIVE</div>
+        </a>
+        <nav>
+            <a href="#">JOURNAL</a>
+            <a href="#">SHOP</a>
+            <a href="#">CITY GUIDE</a>
+            <a href="#">FASHION EDIT</a>
+        </nav>
+    </header>
+
+    <!-- ヒーロー -->
+    <div class="article-hero">
+        <img src="images/articles/himitsuyasan.png" alt="読書喫茶ヒミツヤサン — 秘密のプリンと蔵書の空間">
+        <div class="hero-overlay">
+            <div class="hero-category">CAFE CULTURE</div>
+            <h1 class="hero-title">静寂のなかで、自分に返る。<br>読書喫茶ヒミツヤサンという選択。</h1>
+        </div>
+    </div>
+
+    <!-- 本文 -->
+    <div class="article-body">
+
+        <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 40px;">2026.03.10 &nbsp;|&nbsp; Cafe Culture
+        </p>
+
+        <p>上越市西城町に、静かな革命がある。</p>
+
+        <p>「おしゃべり禁止」——入口に掲げられたそのルールが、初めて訪れる人を少し戸惑わせるかもしれない。でも一歩踏み入れれば、その意味が体でわかる。ざわめきも、他人の会話も、スマホの通知音も、ここでは息をひそめる。日常のノイズが、静かに剥がれ落ちていく感覚。
+        </p>
+
+        <p>「読書喫茶ヒミツヤサン」は、そういう場所だ。</p>
+
+        <h2>おしゃべり禁止という、贅沢。</h2>
+        <p>注文は筆談で行う。オーダーを取りにきたスタッフとも、紙とペンでやりとりする。最初は少し不思議な感覚だが、すぐに慣れる。むしろ、そのやりとりが心地よい。声を使わなくても、ちゃんと伝わる。世界はこんなに静かになれるのかと、少し驚く。
+        </p>
+
+        <p>コンセプトは「ひとりでのんびり、ふたりでこっそり、深呼吸」。友人と来ても静かにいられる。もともと声を出さなくていい、という暗黙の了解が、かえって自由な感じがする。誰かと一緒にいながら、自分の時間を守れる。</p>
+
+        <!-- EDITOR'S VOICE -->
+        <div class="editor-voice">
+            <div class="label">EDITOR'S VOICE</div>
+            <p>ここへ来るのは、決まって一人でいたいときだ。誰かと会話したくないわけじゃない。ただ、自分のペースで、自分の世界に沈みたいときがある。そういう日に、ヒミツヤサンを思い出す。<br><br>
+                注文するのは「秘密のプリン」。クリームとプリンの組み合わせが、思った以上に合う。甘さが、静けさに溶けていく感じがする。カップを持ちながら、ぼんやり棚の本を眺める。それだけで、なんだか十分な気分になる。</p>
+        </div>
+
+        <h2>秘密のプリンと、棚の宇宙。</h2>
+        <p>看板メニューは「秘密のプリン」。その名前通り、見た目に少し驚く。ガラスの器に入ったなめらかなプリンの上に、たっぷりのクリーム。二つの甘さが絶妙に重なり、一口ごとに丁寧な仕事が伝わってくる。コーヒーとともに、ゆっくり味わってほしい一品だ。
+        </p>
+
+        <p>そして、この店の本棚。おそらくオーナーの私物だろう——そう感じさせる個性がある。一般的なカフェの「置いてある雑誌」とは違う。哲学書の隣に漫画がある。旅行記のそばに、お店をひらくときに必要な実務書がある。オーナーが何に興味を持ち、何に悩み、何に感動してきたか。棚が、その人の人生の地図のように見える。
+        </p>
+
+        <h2>缶バッジと、小さな秘密。</h2>
+        <p>気づくと、店内のあちこちに小さな発見がある。お店オリジナルの小物たちだ。なかでも缶バッジは特におすすめ。ユーモアとセンスが混在したデザインは、ここでしか手に入らない。ひとつ選ぶとき、なぜか真剣になる。それも、この店での楽しみのひとつ。
+        </p>
+
+        <p>静かな時間を過ごしながら、気づいたら缶バッジを三つも選んでいた——そういう体験が、ヒミツヤサンには詰まっている。</p>
+
+        <p>上越に、こんな場所があること。知っていてほしいと思いながら、でも少しだけひみつにしておきたい気もする。そのジレンマも、ここの魅力のひとつかもしれない。</p>
+
+        <!-- SHOP INFORMATION -->
+        <div class="shop-info">
+            <h3 class="serif">SHOP INFORMATION</h3>
+            <p>
+                <b>読書喫茶ヒミツヤサン</b><br>
+                住所：新潟県上越市西城町2-3-1<br>
+                営業時間：11:00〜18:00（L.O. 17:30）<br>
+                定休日：水曜・木曜（不定休あり、Instagramで確認推奨）<br>
+                ルール：店内おしゃべり禁止、注文は筆談
+            </p>
+            <div class="shop-links">
+                <a href="https://www.instagram.com/himitsuyasan/" target="_blank" rel="noopener">📷 公式Instagram
+                    (@himitsuyasan)</a>
+                <a href="https://www.google.com/maps/search/読書喫茶ヒミツヤサン+上越市西城町2-3-1/" target="_blank" rel="noopener">📍
+                    Googleマップ</a>
+            </div>
+        </div>
+
+        <p style="color: var(--text-muted); font-size: 12px; text-align: right;">確認日：2026年3月10日</p>
+
+    </div>
+
+    <footer>
+        <p>© 2026 JOETSU COLLECTIVE. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
