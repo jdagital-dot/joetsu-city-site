@@ -4,9 +4,17 @@
   <!-- トップページ -->
   <url>
     <loc>https://joetsucollective.com/</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+
+  <!-- 記事: お魚の店 松 -->
+  <url>
+    <loc>https://joetsucollective.com/article-matsu.html</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <!-- 記事1: 麺屋あごすけ -->
